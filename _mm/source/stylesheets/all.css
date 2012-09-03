@@ -1,13 +1,12 @@
 @charset "utf-8";
 
-//sadfasd
 
 body {
   border-top : 8px solid black;
 
 }
 div.container {
-  background: url('../img/rounder.gif')  top center no-repeat;
+  background: url('images/rounder.gif')  top center no-repeat;
 }
 
 div#name {
@@ -42,7 +41,7 @@ div#profession {
 div#center-border {
 
   height:196px;
-  background: url('../img/center-border.gif') repeat-x;
+  background: url('images/center-border.gif') repeat-x;
 
 }
 
