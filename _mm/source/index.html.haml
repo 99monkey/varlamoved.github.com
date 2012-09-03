@@ -1,0 +1,52 @@
+---
+title: Welcome to Middleman
+---
+.container.showgrid
+  %div{:style => "height:90px;"}
+    .span-6{:style => "line-height:90px;"}
+      %img{:src => "images/varlamoved.gif", :style => "vertical-align:bottom;"}/
+    #name.span-12.last
+      %h1
+        = image_tag 'red-cycle.gif', :style => "vertical-align:middle; margin-bottom:5px; margin-right:5px;"
+        Евгений Варламов
+  %br/
+  %br/
+  #profession.span-24.last
+    Ruby on Rails разработчик
+    %br/
+    Консультирую по методике GTD
+#center-border
+  %img{:src => "images/photo.jpg", :style => "float:left;margin-top:24px;"}/
+  .container{:style => "background:none"}
+    .span-18.prepend-1{:style => "margin-top:60px;"}
+      %h2{:style => "color:#999;font-size:10pt; font-family:georgia; margin-bottom:0px;"} ИЗ СБОРНИКА ЦИТАТ:
+      %p{:style => "font-family:georgia;  font-size:18pt;line-space:1pt;"}
+        “Если вы
+        = succeed "," do
+          %span.zitat-word до конца не уверены
+        в чем заключается ваша работа, она всегда будет казаться вам
+        = succeed "\u{201d}" do
+          %span.zitat-word необъятной
+/ black
+.container{:style => "background:none"}
+  .span-24
+    %table.qwe{:style => "font-size:14pt; width:50%; margin: 50px auto;"}
+      %tr
+        %td ГОРОД
+        %td МОСКВА
+      %tr
+        %td ТЕЛ.
+        %td
+          %span{:style => "color:#4782ac"} (+7 903) 775-4356
+      %tr
+        %td EMAIL/JABBER
+        %td varlamoved@gmail.com
+      %tr
+        %td SKYPE
+        %td
+          %span{:style => "color:#4782ac; font-weigth:bold;"} varlamoved
+%div{:style => "background-color:#333;"}
+  %br/
+  .container.showgrid{:style => "background:none"}
+    .prepend-2.span-12
+      %span{:style => "color:#888;"} © VARLAMOVED 2012

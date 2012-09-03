@@ -5,6 +5,5 @@ Thumbs.db
 .DS_Store
 
 !.gitkeep
+/_mm/build/*
 
-.rbenv-version
-.rvmrc
