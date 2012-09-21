@@ -4,11 +4,22 @@ title: Евгений Варламов - Тестовая страница
 
 %p
   wqqwe
-  = image_tag 'tree.jpg', style: 'margin-top: 60px;', id: 'image'
+  = image_tag 'mgu.jpeg', style: 'margin-top: 60px;', id: 'image'
   qwe
+
 :javascript
-  __tlid = '299513675893440513';
-  setTimeout(function(){(function(d,t){var s=d.createElement(t),x=d.getElementsByTagName(t)[0];
-  s.type='text/javascript';s.async=true;s.src='//cdn.thinglink.me/jse/embed.js';
-  x.parentNode.insertBefore(s,x);})(document,'script');},0);
+  (function() {
+      _CaliptSettings = {
+        minWidth:  400, // минимальная ширина фотографий
+        minHeight: 250  // минимальная высота фотографий
+      };
+      var ca = document.createElement('script');
+      ca.type = 'text/javascript';
+      ca.async = true;
+      ca.src = 'http://assets.calipt.ru/pip.js';
+      ca.id = "calipt-adv";
+      ca.setAttribute('data-site-id', 'ac3f9312');
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(ca, s);
+  })();
 
