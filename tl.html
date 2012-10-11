@@ -23,6 +23,15 @@
     <script type='text/javascript'>
   //<![CDATA[
     __tlid = '299513675893440513';
+    
+    var eventManager = {
+      trigger: function(event, param){
+        console.log(param);
+      }
+    }
+    
+    __tlconfig.eventManager = eventManager;
+    __tlconfig.makeNubbinsSticky = true;
     setTimeout(function(){(function(d,t){var s=d.createElement(t),x=d.getElementsByTagName(t)[0];
     s.type='text/javascript';s.async=true;s.src='//cdn.thinglink.me/jse/embed.js';
     x.parentNode.insertBefore(s,x);})(document,'script');},0);
